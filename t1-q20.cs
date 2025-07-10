@@ -8,5 +8,28 @@ namespace Tutorials
 {
     internal class t1_q20
     {
+        static void Main()
+        {
+            Console.WriteLine("24SOECE13032 - KHIMSURIYA KINJAL");
+
+            int rows = 4; 
+            int number = 1;
+
+            for (int i = 1; i <= rows; i++)
+            {
+                for (int space = 1; space <= rows - i; space++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(number + " ");
+                    number++;
+                }
+                Console.WriteLine();
+            }
+        }
+
     }
 }

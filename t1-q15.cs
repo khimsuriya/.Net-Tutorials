@@ -8,5 +8,37 @@ namespace Tutorials
 {
     internal class t1_q15
     {
+        static void Main()
+        {
+            Console.WriteLine("24SOECE13032 - KHIMSURIYA KINJAL");
+
+            Console.Write("Enter a number: ");
+            string input = Console.ReadLine();
+
+            foreach (char ch in input)
+            {
+                if (!char.IsDigit(ch))
+                {
+                    Console.WriteLine("Invalid input.");
+                    return;
+                }
+            }
+
+            long number = long.Parse(input);
+            int digits = input.Length;
+            long sumPower = 0;
+
+            foreach (char ch in input)
+            {
+                int d = ch - '0';
+                sumPower += (long)Math.Pow(d, digits);
+            }
+
+            if (sumPower == number)
+                Console.WriteLine($"{number} is an Armstrong number.");
+            else
+                Console.WriteLine($"{number} is NOT an Armstrong number.");
+        }
+
     }
 }
