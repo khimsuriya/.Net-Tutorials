@@ -10,7 +10,7 @@ namespace Tutorials
     {
         static void Main()
         {
-            Console.WriteLine("24SOECE13033 - MAKAWANA YASHVI");
+            Console.WriteLine("24SOECE13032 - KHIMSURIYA KINJAL");
             int n = 5;
             for (int i = 1; i <= n; i++)
             {
