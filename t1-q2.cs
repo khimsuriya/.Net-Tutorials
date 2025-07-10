@@ -8,7 +8,7 @@ namespace Tutorials
 {
     internal class t1_q2
     {
-        static void Main(String[] arg)
+        public static void Main(String[] arg)
         {
             Console.WriteLine("Name: KHIMSURIYA KINJAL");
             Console.WriteLine("DOB: 16/09/2006");
