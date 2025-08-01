@@ -11,6 +11,7 @@ namespace Tutorials
         public static void Main()
         {
             Console.WriteLine("24SOECE13032 - KHIMSURIYA KINJAL");
+
             Console.Write("Input the number of terms: ");
             int n = int.Parse(Console.ReadLine());
 

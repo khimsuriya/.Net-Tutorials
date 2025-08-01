@@ -13,9 +13,9 @@ namespace Tutorials
             Console.WriteLine("24SOECE13032 - KHIMSURIYA KINJAL");
 
             Console.Write("Enter a number: ");
-            string number = Console.ReadLine();   
+            string number = Console.ReadLine();
 
-            foreach (char ch in number)          
+            foreach (var ch in number)
             {
                 switch (ch)                      
                 {
